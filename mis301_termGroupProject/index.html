@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en tr">
+<head>
+    <!--Meta Data-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A rental car webPage">
+    <meta name="keywords" content="rent a car, car, rental, rent">
+    <meta name="authors" content="Ersan Sen, Ali Rahmi Atalay, Berke Akkus">
+    <!--Links-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/icons/icon-head.png">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    
+    <!--Scripts-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+        items:1,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        nav:true,
+        });
+        });
+    </script>
+    <script src="//code-eu1.jivosite.com/widget/iFMapEa8Dh" async></script>
+    <title>Ankyra Rent || Main Page</title>
+</head>
+<body>
+    <!--Header Section-->
+    <header>
+        <span id="logo">
+            <a href="./index.html">
+                <img id="webPageLogo" src="images/logo/nameLogo.png" alt="">
+            </a>
+        </span>
+
+        <span id="menuBar">
+            <ul class="menu">
+                <li>
+                    <a href="./index.html">Main Page</a>
+                </li>
+                <li>
+                   <a href="./aboutUs.html">About Us</a>  
+                </li>
+                <li >
+                    <a href="./contact.html">Contact</a>
+                </li>
+                <li >
+                    <a href="./showroom.html">Showroom</a>
+                </li>
+            </ul>
+        </span>
+
+        <span id="searchArea">
+            <span class="text">
+                <input type="text" name="" id="inputText" placeholder="Search for">
+            </span>
+            <span class="searchButton">
+                <a href=""> <img class="searchButton" src="./images/icons/buttonS.png" alt=""> </a>
+            </span>
+        </span>
+
+        <span id="loginPart">
+            <span class="corPart">
+                <a href="./corporateLogin.html">Corporate</a>
+            </span>
+            <span class="indPart">
+                <a href="./individualLogin.html">Individual</a>
+            </span>
+        </span>
+    </header>
+    <!--Header Seciton End-->
+    
+    <!--Main Container Section-->
+    <div class="mainContainer">
+        <!--Slider Section-->
+        <div id="slider">
+            <div class="owl-carousel">
+                <div><img src="./images/slider/slider-1.jpeg" alt=""> </div>
+                <div><img src="./images/slider/slider-2camp.jpg" alt=""></div>
+                <div><img src="./images/slider/slider-3turnkey.jpg" alt=""></div>
+                <div><img src="./images/slider/slider-4.jpg" alt=""></div>
+                <div><img src="./images/slider/slider-5models.jpg" alt=""></div>
+                <div><img src="./images/slider/slider-6app.jpg" alt=""></div>
+                <div><img src="./images/slider/slider-7way.jpg" alt=""></div>
+                <div><img src="./images/slider/slider-8.jpg" alt=""></div>
+            </div>  
+        </div> 
+        <!--Slider Section End-->
+
+        <!--Catagories Section-->
+        <div id="catagories">
+            <ul>
+                <li>
+                    <a href="./econCars.html">
+                        <i class="econ"></i>
+                        <p>Hatchback</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sedanCars.html">
+                        <i class="sedan"></i>
+                        <p>Sedan</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./suvCars.html">
+                        <i class="suv"></i>
+                        <p>Suv</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sportCars.html">
+                        <i class="sport"></i>
+                        <p>Sport</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./minibusCars.html">
+                        <i class="minibus"></i>
+                        <p>Minibus</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--Catagories Section End-->
+
+        <!--Disqus Infrastructure-->
+        <div id="disqus">
+            <div id="disqus_thread"></div>
+        <script>
+         /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+         var disqus_config = function () {
+         this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+         };
+         */
+         (function() { // DON'T EDIT BELOW THIS LINE
+         var d = document, s = d.createElement('script');
+         s.src = 'https://ankyra-rent.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+        <!--Disqus Infrastructure End-->
+        <!--Main Section End-->
+    </div>
+    <!--Footer Section-->
+    <footer>
+        <div id="about">
+            <p>You can be sure that whether you are looking for a hatchback car, sedan or sport car for your business or leisure trips , Ankyra-Rent has the vehicle to meet every car rental need. Make the most out of our large range of services to make car rental experience a unique experience.</p>
+        </div>
+
+        <div id="footerLogo">
+            <img src="./images/logo/footerLogo.jpg" alt="">
+        </div>
+        <address>
+            You can Contact with us via;<br>
+            Phone Number: 444 7 518 <br>
+            Mail: info@ankyra-rent.com <br>
+            <a class="btnn" href="./contact.html">Contact With Us</a>
+        </address>
+    </footer>
+    <!--Footer Section End-->
+<script id="dsq-count-scr" src="//ankyra-rent.disqus.com/count.js" async></script>
+</body>
+</html>
