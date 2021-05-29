@@ -1,0 +1,263 @@
+    *{
+        padding: 0;
+        margin: 0;
+        outline: 0;
+    }
+    body{
+        background-color: #06060a;
+    }
+    .clear{
+        clear: both;
+    }
+    header{
+        width: 100%;
+        height: 120px;
+        background-image: url(../images/header/header.png);
+        background-size: cover;
+        border-bottom:solid yellow 2px;
+    }
+    #logo{
+        display: inline-block;
+        width: 20%;
+        margin: auto;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    img#webPageLogo{
+        width: 100%;
+        height: 100%;
+    }
+    #menuBar{
+        display: inline-block;
+        background-color: black;
+        width: 30%;
+    }
+    .menu{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    #menuBar .menu li{
+        display: inline-block;
+        margin: auto;
+        background-color: black;
+        width: 20%;
+        height: 20px;
+        margin-left: 10px;
+        border-radius: 5px;
+        border-bottom: solid 1px whitesmoke;
+    }
+    #menuBar .menu li:hover{
+        background-color: rgb(22, 22, 22);
+        color: rgb(97, 94, 69);
+    }
+    #menuBar .menu li a{
+        text-decoration: none;
+        margin: auto;
+        color: blanchedalmond;
+        margin-left: 10px;
+        font-family: 'Quicksand', sans-serif;;
+        font-size: 13px;
+    }
+    #menuBar .menu li a:hover{
+        background-color: rgb(22, 22, 22);
+        color: rgb(97, 94, 69);
+    }
+    #loginPart{
+        float: right;
+        height: 20%;
+        width: 21%;
+    }
+    span.corPart {
+        margin-top: 1%;
+        float: left;
+        width:49%;
+        height: 100%;
+        background-color: #181817;
+        margin-right:2%;
+        border-radius: 10px;
+    }
+    span.indPart{
+        margin-top: 1%;
+        float: right;
+        width: 49%;
+        height: 100%;
+        background-color: #181817;
+        border-radius: 10px;
+    }
+    #loginPart a{
+        display: inline-block;
+        margin-top: 1%;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;;
+        text-align: center;
+        color: white;
+    }
+    #loginPart a:hover{
+        border-radius: 10px;
+        background-color:#64645e ; 
+        color: #fffb00;
+        margin: 0;
+    }
+    div#mainContainer{
+        margin: auto;
+        display: block;
+        height: fit-content;
+    }
+    #mainContainer .contentArea{
+        display: block;
+        margin: auto;
+        width: 95%;
+        height: fit-content;
+    }
+    #mainContainer .post{
+        display: block;
+        width: 90%;
+        height: 450px;
+        background-color: rgb(32, 30, 33);
+        margin:auto;
+        margin-top: 15px;
+        border: 3px solid rgba(53, 53, 53, 0.466);
+        border-radius: 5px;
+    }
+    #mainContainer .post h1{
+      color: white;
+      margin-left: 7px ;
+      border-bottom: 1px solid rgb(255, 255, 32) ;
+    }
+    #mainContainer .post img{
+        width: 50%;
+        height: auto;
+        display: inline-block;
+        margin-left: 2px;
+        margin-top: 15px;
+        border-radius: 4px;
+    }
+    #mainContainer .post .textArea{
+        float: right;
+        width: 47.5%;
+        height: 330px;
+        margin-top: 15px;
+        margin-right: 5px;
+    }
+    #mainContainer .post .textArea p.detail{
+        width: 99%;
+        height: 60%;
+        background-color:#a2a2a2;
+        display: block;
+        border-radius: 4px;
+    }
+    img.info{
+        width: 98.5% !important;
+    }
+    img.car{
+        border: rgba(53, 53, 53, 0.4660) solid 2px;
+        border-radius: 10px !important;
+    }
+    .contentArea p{
+        margin-top: 10px;
+        background-color: #353535 !important;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: azure;
+    } 
+    .post h1{
+        font-family: 'Rubik', sans-serif;
+    }
+    p.detail{
+        padding-left: 5px;
+        padding-top: 2px;
+    }
+    .link{
+        display: block;
+        float: right;
+        margin-top: 5px;
+        margin-right: 5px;
+        width: 100px;
+        height: 20px;
+        background-color: rgb(161, 155, 155);
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        color: #171717;
+        font-family: 'Nunito', sans-serif;
+    }
+    .link:hover{
+        background-color: rgb(173, 173, 173);
+        border: 0;
+    }
+    .link:active{
+        box-shadow: 2px 0px 4px rgb(155, 152, 152);
+    }
+    footer{
+        margin-top:10px;
+        border-top:solid yellow 4px;
+        width: 100%;
+        height: 140px;
+        height: fit-content;
+        background-color: #3a3939f5;
+    }
+    
+    footer #about{
+        display: inline-block;
+        margin: 5px 10px;
+        width: 42%;
+        height: 130px;
+        border-radius: 10px;
+        background-color:#201e2166;
+    }
+    footer #about p{
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Bebas Neue', cursive;
+        padding: 18px;
+        font-size: 20px;
+        padding-bottom:0;
+    }
+    footer #footerLogo{
+        display: inline-block;
+        width: 9%;
+        margin-left: 15px;
+        height: fit-content;
+        background-color: whitesmoke;
+    }
+    footer #footerLogo img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    footer address{
+        display: inline-block;
+        margin: 5px 10px;
+        width: 42%;
+        height: 130px;
+        background-color: #201e2166;
+        border-radius: 10px;
+        color: whitesmoke;
+        float:right;
+        text-align: center;
+    }
+    footer address{
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        padding-bottom: 0;
+    
+    }
+    a.btnn{
+        display: inline-block;
+        width: 125px;
+        height: 25px;
+        border-radius: 5px;
+        text-decoration: none whitesmoke;
+        background-color: rgb(161, 155, 155);
+        border: rgb(155, 152, 152) solid 3px;
+        color: rgb(31, 31, 31);
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
